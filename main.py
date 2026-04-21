@@ -1,4 +1,4 @@
-# Import từ các file module do chính bạn viết
+# Import từ các file 
 from dataset import XRayDataset
 from model import SVMSGD
 from evaluator import ModelEvaluator
