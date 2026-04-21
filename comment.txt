@@ -1,0 +1,3 @@
+Đánh giá: Mô hình SVM tự xây dựng (Assignment 1) cho kết quả tổng thể tốt hơn và cân bằng giữa hai lớp hơn so với mô hình từ thư viện Scikit-learn (Assignment 2).
+Giải thích: Nguyên nhân có thể do mô hình tự xây dựng có thể điều chỉnh learning rate và epoch và xử lý mất cân bằng lớp phù hợp với dữ liệu ảnh X-Ray, 
+trong khi mô hình Scikit-learn mặc dù có class_weight='balanced' nhưng vẫn bị ảnh hưởng bởi sự mất cân bằng lớp dữ liệu, khiến nó thiên vị quá mức về lớp Pneumonia.
